@@ -3,6 +3,7 @@ export default function renderCountries(countriesObjects) {
     let countries = [];
 
     const countriesList = document.querySelector(".country-list");
+     // const countryInfo
 
     if(countryLength > 10) {
         console.log("Too many matches found. Please enter a more specific name.");
@@ -16,7 +17,7 @@ export default function renderCountries(countriesObjects) {
         })
     } else {
         let country = countriesObjects[0];
-        console.log(country);
+        // countryInfo.innerHTML = ``
     }
 }
 
