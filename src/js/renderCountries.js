@@ -9,7 +9,6 @@ export default function renderCountries(countriesObjects) {
 
     if(countryLength < 2) {
         let country = countriesObjects[0];
-        // console.log(country);
         countryInfo.innerHTML = `
         <div>
             <img src="${country.flags.svg}" width=25/>
@@ -21,6 +20,7 @@ export default function renderCountries(countriesObjects) {
             <span>Languages: ${country.languages[0].name}</span>
         </div>
         `
+        countriesList.innerHTML = '';
     } else if(countryLength >= 2 && countryLength <= 10) {
         countriesObjects.map(country => {
         countries += `
