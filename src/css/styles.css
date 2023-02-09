@@ -22,3 +22,15 @@ body {
 .country {
   list-style-type: none;
 }
+
+.countryCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-info{
+  font-size: 20px;
+  line-height: 50px;
+  width: 400px;
+  font-weight: bold;
+}
