@@ -10,7 +10,7 @@ export default function renderCountries(countriesObjects) {
     } else if(countryLength >= 2 && countryLength <= 10) {
         countriesObjects.map(country => {
             countries += `<li class="country">
-            <img src="${country.flags.svg}" width=20/>
+            <img src="${country.flags.svg}" width=25/>
             <span>${country.name}</span>
             </li>`
             countriesList.innerHTML = countries;
