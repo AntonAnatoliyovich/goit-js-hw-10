@@ -31,6 +31,7 @@ export default function renderCountries(countriesObjects) {
         `
         countriesList.innerHTML = countries;
         })
+        countryInfo.innerHTML = '';
         } else {
         Notify.info("Too many matches found. Please enter a more specific name.");
     }
